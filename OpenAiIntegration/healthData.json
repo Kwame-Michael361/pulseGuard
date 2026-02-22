@@ -1,0 +1,199 @@
+{
+  "ageGroups": {
+    "young": {
+      "range": [18, 29],
+      "label": "Young Adult",
+      "context": "At your age, building healthy habits now creates a strong foundation for lifelong wellness. Your body is resilient but not immune to the effects of poor lifestyle choices."
+    },
+    "adult": {
+      "range": [30, 44],
+      "label": "Adult",
+      "context": "In your 30s and early 40s, metabolism begins to slow and stress levels often peak. Preventive action now has outsized long-term benefits."
+    },
+    "midlife": {
+      "range": [45, 59],
+      "label": "Mid-life Adult",
+      "context": "At this stage, cardiovascular health, bone density, and metabolic function deserve close attention. Small consistent changes yield significant results."
+    },
+    "senior": {
+      "range": [60, 120],
+      "label": "Senior",
+      "context": "Maintaining mobility, strength, and cognitive health are key priorities. Focus on low-impact activity, nutrition quality, and regular health screenings."
+    }
+  },
+  "bmiCategories": {
+    "underweight": {
+      "range": [0, 18.4],
+      "label": "Underweight",
+      "summary": "Your BMI indicates you are underweight, which carries its own health risks including nutrient deficiencies, weakened immunity, and reduced bone density.",
+      "recommendations": [
+        "Increase your caloric intake with nutrient-dense whole foods like nuts, legumes, and whole grains",
+        "Incorporate strength training at least 3 times per week to build lean muscle mass",
+        "Consult a nutritionist to ensure you are meeting your daily macro and micronutrient needs",
+        "Avoid skipping meals and consider adding healthy calorie-dense snacks between meals"
+      ],
+      "preventiveActions": [
+        "Track your daily caloric intake for 2 weeks to understand your eating patterns",
+        "Get bloodwork done to check for deficiencies in iron, vitamin D, and B12",
+        "Monitor your energy levels and mood as these are early indicators of nutritional gaps"
+      ]
+    },
+    "normal": {
+      "range": [18.5, 24.9],
+      "label": "Normal Weight",
+      "summary": "Your BMI is in the healthy range, which is a strong indicator of good metabolic health. The focus now is maintaining this through consistent habits.",
+      "recommendations": [
+        "Maintain your current weight through a balanced diet rich in vegetables, lean proteins, and whole grains",
+        "Aim for at least 150 minutes of moderate aerobic activity per week",
+        "Schedule annual health checkups to monitor cholesterol, blood pressure, and blood sugar"
+      ],
+      "preventiveActions": [
+        "Keep a consistent sleep schedule of 7-8 hours to support metabolic health",
+        "Monitor your weight monthly rather than daily to track meaningful trends",
+        "Stay up to date with recommended health screenings for your age group"
+      ]
+    },
+    "overweight": {
+      "range": [25, 29.9],
+      "label": "Overweight",
+      "summary": "Your BMI places you in the overweight category, which increases risk for cardiovascular disease, type 2 diabetes, and joint stress. The good news is this range is very responsive to lifestyle changes.",
+      "recommendations": [
+        "Aim for a modest caloric deficit of 300-500 calories per day through diet adjustments rather than extreme restriction",
+        "Increase physical activity to at least 45 minutes of moderate exercise 5 days per week",
+        "Reduce ultra-processed foods, sugary drinks, and high-sodium snacks from your daily diet",
+        "Focus on portion control rather than elimination — small reductions compound significantly over time"
+      ],
+      "preventiveActions": [
+        "Get your blood pressure and blood sugar checked every 6 months",
+        "Start meal prepping to reduce reliance on fast or convenience food",
+        "Consider working with a registered dietitian to build a sustainable eating plan"
+      ]
+    },
+    "obese": {
+      "range": [30, 100],
+      "label": "Obese",
+      "summary": "Your BMI is in the obese range, which significantly elevates risk for serious conditions including heart disease, stroke, sleep apnea, and type 2 diabetes. Proactive steps now can dramatically reduce these risks.",
+      "recommendations": [
+        "Consult your doctor before starting any new exercise program to ensure it is appropriate for your current condition",
+        "Begin with low-impact activities such as walking, swimming, or cycling to protect your joints",
+        "Work toward reducing added sugar and refined carbohydrates as a first dietary priority",
+        "Set small, measurable weekly goals rather than focusing on large long-term targets"
+      ],
+      "preventiveActions": [
+        "Schedule a full health panel including HbA1c, lipid profile, and liver function tests",
+        "Consider joining a structured weight management program with professional support",
+        "Track your daily steps as a starting metric and aim to increase by 500 steps per week"
+      ]
+    }
+  },
+  "riskLevels": {
+    "Low": {
+      "description": "Your overall health risk score is low. Continue your current healthy behaviors and focus on prevention.",
+      "urgency": "Maintain current habits with annual monitoring."
+    },
+    "Moderate": {
+      "description": "Your health risk score indicates moderate risk. Targeted lifestyle improvements can significantly reduce this.",
+      "urgency": "Take action within the next 30 days and reassess in 3 months."
+    },
+    "High": {
+      "description": "Your health risk score is elevated. This warrants prompt attention and ideally professional guidance.",
+      "urgency": "Seek medical advice within 2 weeks and begin lifestyle changes immediately."
+    }
+  },
+  "postureAdvice": {
+    "poor": {
+      "score": [0, 39],
+      "summary": "Your posture score is critically low, which can lead to chronic back pain, reduced lung capacity, and long-term spinal issues.",
+      "tips": [
+        "Set an hourly reminder to check and correct your posture throughout the day",
+        "Strengthen your core with daily exercises like planks, dead bugs, and bird dogs",
+        "Invest in an ergonomic chair or standing desk if you sit for long periods",
+        "Consider seeing a physiotherapist for a posture assessment and corrective exercise plan"
+      ]
+    },
+    "average": {
+      "score": [40, 69],
+      "summary": "Your posture score is average. You have a foundation to build on but noticeable room for improvement.",
+      "tips": [
+        "Focus on shoulder blade retraction exercises to counteract forward head posture",
+        "Stretch your hip flexors and chest daily as these tighten with prolonged sitting",
+        "Be mindful of your screen height — your monitor should be at eye level"
+      ]
+    },
+    "good": {
+      "score": [70, 100],
+      "summary": "Your posture score is good. Maintaining this requires consistent effort especially as activity levels or work habits change.",
+      "tips": [
+        "Continue your current posture habits and incorporate mobility work into your routine",
+        "Reassess your ergonomic setup every 6 months especially if your work setup changes"
+      ]
+    }
+  },
+  "hydrationAdvice": {
+    "Low": {
+      "summary": "Your hydration is low. Chronic dehydration affects kidney function, cognitive performance, skin health, and energy levels.",
+      "tips": [
+        "Start each morning with a large glass of water before coffee or food",
+        "Carry a 1-liter water bottle and aim to refill it twice daily",
+        "Eat water-rich foods like cucumber, watermelon, and leafy greens",
+        "Set phone reminders every 2 hours to drink water until it becomes habit"
+      ]
+    },
+    "Moderate": {
+      "summary": "Your hydration is at a moderate level. A small increase would noticeably improve your energy and focus.",
+      "tips": [
+        "Add one extra glass of water with each meal to boost your daily intake",
+        "Replace one sugary or caffeinated drink per day with water or herbal tea"
+      ]
+    },
+    "High": {
+      "summary": "Your hydration is good. Well done — consistent hydration supports nearly every system in your body.",
+      "tips": [
+        "Adjust your water intake upward on days with intense exercise or high heat",
+        "Include electrolyte-rich foods post-workout to maintain optimal balance"
+      ]
+    }
+  },
+  "activityAdvice": {
+    "Sedentary": {
+      "summary": "A sedentary lifestyle is one of the strongest independent risk factors for cardiovascular disease, metabolic disorders, and mental health decline.",
+      "tips": [
+        "Start with a 10-minute walk after each meal — this alone has measurable metabolic benefits",
+        "Break up sitting time every 45 minutes with 5 minutes of light movement",
+        "Set a daily step goal of 5,000 steps initially and increase by 1,000 each week",
+        "Find a physical activity you genuinely enjoy — consistency matters more than intensity"
+      ]
+    },
+    "Lightly Active": {
+      "summary": "You have some activity in your routine but there is meaningful room to increase it for better health outcomes.",
+      "tips": [
+        "Add one structured workout session per week targeting either cardio or strength",
+        "Try replacing short car trips with walking or cycling where possible",
+        "Use the stairs instead of elevators as a simple daily habit upgrade"
+      ]
+    },
+    "Moderately Active": {
+      "summary": "You are moderately active which puts you ahead of most people. Optimizing your routine can take your results further.",
+      "tips": [
+        "Introduce interval training once a week to boost cardiovascular efficiency",
+        "Add resistance training if you are not already doing it — muscle mass improves metabolism",
+        "Focus on recovery — stretching, sleep, and nutrition are limiting factors at this level"
+      ]
+    },
+    "Very Active": {
+      "summary": "Your activity level is excellent. At this level the focus shifts to sustainability, recovery, and injury prevention.",
+      "tips": [
+        "Ensure you are consuming enough calories and protein to support your activity level",
+        "Prioritize sleep as the primary recovery tool — aim for 8-9 hours",
+        "Include at least one full rest day per week to prevent overtraining syndrome"
+      ]
+    }
+  },
+  "combinedRiskFlags": {
+    "sedentaryHighRisk": "You are both highly sedentary and in a high risk category — this combination significantly accelerates health deterioration. Physical activity is your single highest-impact intervention right now.",
+    "youngHighRisk": "Being in a high risk category at a young age is unusual and worth taking seriously. Early intervention now prevents compounding health issues in your 30s and 40s.",
+    "seniorModerateRisk": "At your age, moderate risk requires prompt attention. Cardiovascular and metabolic conditions progress faster after 60 — regular medical monitoring is essential.",
+    "lowHydrationHighRisk": "Chronic dehydration combined with high health risk amplifies strain on your kidneys and cardiovascular system. Improving hydration is one of the fastest changes you can make today.",
+    "poorPostureHighRisk": "Poor posture combined with high health risk compounds physical stress on your body. Addressing posture reduces chronic pain and fatigue that otherwise makes other healthy habits harder to maintain."
+  }
+}
